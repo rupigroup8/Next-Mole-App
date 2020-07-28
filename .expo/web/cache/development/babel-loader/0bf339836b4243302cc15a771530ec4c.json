@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { AnimatedEmoji } from \"./AnimatedEmoji\";","map":{"version":3,"sources":["/Users/rgoren/Desktop/personal/Mole-next-2/node_modules/react-native-animated-emoji/lib/index.js"],"names":["AnimatedEmoji"],"mappings":"AAAA,SAASA,aAAT","sourcesContent":["export { AnimatedEmoji } from './AnimatedEmoji';\n"]},"metadata":{},"sourceType":"module"}

@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "the mole",
+    "slug": "TheMole",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "theMole",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.625987979169-67epbop9fn9k9bgevn0gsuejr1dcl288"
+        }
+      },
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.bgroup65.themole",
+      "versionCode": 5,
+      "googleServicesFile": "./google-services.json"
+    },
+    "facebookAppId": "752014891800107",
+    "facebookScheme": "fb752014891800107",
+    "extra": {
+      "googleAppId": {
+        "ios": "625987979169-ich3hq56mbspf3k8lp6ttd4it6g246e6.apps.googleusercontent.com",
+        "android": "833547522567-ouanclkn46868t0dak561p5oop9d63l4.apps.googleusercontent.com"
+
+      }
+    },
+    "description": "two player game based on wikipedia articles and network science.\nthe player goal is to reach his/hers opponent source vertex(=wikipedia article) in the shortest and the quickest way possible. \neach player gets a source vertex (starting article) and target vertex (ending article), the game algorithm will advice one 'good' article to continue with and two bad ones until the user get's to his/her's target.\nthere are six categories to play - politics, movies , music, \n\n"
+  }
+}

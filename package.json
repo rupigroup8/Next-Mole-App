@@ -1,0 +1,65 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "postinstall": "rndebugger-open",
+    "eject": "expo eject",
+    "debug": "open rndebugger://set-debugger-loc?host=localhost&port=19001"
+  },
+  "ios": {
+    "bundleIdentifier": "somethingElse"
+  },
+  "dependencies": {
+    "eslint": "^7.2.0",
+    "expo": "^37.0.0",
+    "expo-asset": "~8.1.5",
+    "expo-facebook": "~8.1.0",
+    "expo-google-app-auth": "^8.1.0",
+    "expo-google-sign-in": "^8.1.0",
+    "firebase": "^7.15.1",
+    "native-base": "^2.8.2",
+    "react": "^16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-animated-emoji": "^0.1.4",
+    "react-native-app-intro-slider": "^1.0.1",
+    "react-native-autocomplete-input": "^3.6.0",
+    "react-native-bouncing-preloader": "^1.0.1",
+    "react-native-confetti-cannon": "^1.1.3",
+    "react-native-countdown-component": "^2.7.1",
+    "react-native-debugger": "^1.1.0",
+    "react-native-design-utility": "0.0.30",
+    "react-native-easy-grid": "^0.2.1",
+    "react-native-elements": "^1.0.0",
+    "react-native-fbsdk": "^0.8.0",
+    "react-native-fcm": "^16.2.4",
+    "react-native-firebase": "^5.2.3",
+    "react-native-foldview": "^1.2.1",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-indicators": "^0.13.0",
+    "react-native-interactable": "^0.1.10",
+    "react-native-lightbox": "^0.8.0",
+    "react-native-modal": "^9.0.0",
+    "react-native-modal-overlay": "^1.3.1",
+    "react-native-paper": "^3.10.1",
+    "react-native-popup-dialog": "^0.18.2",
+    "react-native-push-notification-popup": "^1.2.0",
+    "react-native-screens": "^2.2.0",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-super-grid": "^3.0.3",
+    "react-navigation": "^3.6.1",
+    "react-sync-fetch": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^8.1.0",
+    "exp": "^57.2.1",
+    "react-native-debugger-open": "^0.3.17"
+  },
+  "private": true,
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
